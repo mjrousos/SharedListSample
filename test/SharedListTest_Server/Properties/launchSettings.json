@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "SharedListTest_Server": {
+      "commandName": "SharedListTest_Server",
+      "commandLineArgs": "1111"
+    }
+  }
+}

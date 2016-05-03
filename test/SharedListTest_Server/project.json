@@ -1,0 +1,38 @@
+﻿{
+  "version": "1.0.0-*",
+  "description": "SharedListTest_Server Console Application",
+  "authors": [ "Mike" ],
+  "tags": [ "" ],
+  "projectUrl": "",
+  "licenseUrl": "",
+
+  "compilationOptions": {
+    "emitEntryPoint": true
+  },
+
+  "dependencies": {
+    "SharedList": {
+      "target": "project"
+    }
+  },
+
+  "commands": {
+    "SharedListTest_Server": "SharedListTest_Server"
+  },
+
+  "frameworks": {
+    "dnx451": { },
+    "netcoreapp1.0": {
+      "imports": [ "dnxcore50" ],
+      "dependencies": {
+        "Microsoft.NETCore.App": "1.0.0-rc2-3002543"
+      }
+    }
+  },
+
+  "runtimes": {
+    "win10-x64": { },
+    "ubuntu.14.04-x64": { },
+    "osx.10.10-x64": { }
+  }
+}
